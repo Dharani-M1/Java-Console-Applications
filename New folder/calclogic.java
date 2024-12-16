@@ -1,3 +1,4 @@
+
 public class calclogic
 {
     //addition
@@ -45,6 +46,11 @@ static double subraction(double a,double b)
     static double divide(double a,double b,double c)
     {
         return a/b/c;
+    }
+    
+//power    
+    static double power(double a,double b){
+        return math.pow(a,b);
     }
 
 
